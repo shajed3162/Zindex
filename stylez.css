@@ -82,7 +82,9 @@ body{
     padding: 15px;
     position: relative;
 }
+/*  card section */
 
+/* second section starts here */
     
 .bottom{
     text-align: center;
@@ -93,9 +95,7 @@ body{
     color: white;
 }
 
-/*  card section */
 
-/* second section starts here */
 .bottom h1{
     text-align: center;
     
