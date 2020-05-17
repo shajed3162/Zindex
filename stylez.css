@@ -1,0 +1,89 @@
+#header{
+    height: 400px;
+    background-color: rgb(109, 22, 190);
+    z-index: 2;
+}
+.header-left{
+    width: 430px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 120px ;
+    float: left;
+}
+.header-left img{
+    height: 100px;
+    width: 100px;
+}
+.header-right {
+    float:right;
+    width: 600px;
+    margin-right: 50px;
+    padding-top: 30px;
+    
+}
+.header-right ul{
+    margin-left: 150px;
+}
+.header-right ul li {
+    list-style-type: none;
+    float: left;
+    padding: 25px;
+}
+.header-right ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+.header-right ul li a:hover{
+    background-color: tomato;
+}
+.header-right img{
+    width: 300px;
+    margin-left: 100px;
+}
+.button{
+    background-color: rgb(109, 22, 190);
+    color: white;
+    padding: 6px;
+    border: wheat solid 1px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: tomato;
+}
+.zindex{
+    text-align: center;
+    height: 200px;
+    background-color: white;
+    border: rgb(109, 22, 190) solid 1px;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    z-index: 1;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    position: relative;
+}
+
+    
+.bottom{
+    text-align: center;
+    height: 600px;
+    background-color: rgb(109, 22, 190);
+    z-index: 2;
+    padding-top: 100px;
+    color: white;
+}
+.main-card{
+padding: 60px;
+}
+.card{
+    background-color:white;
+    width: 300px;
+    height: 400px;
+    border: rgb(153, 104, 104) solid 1px;
+    float: left;
+    margin: 30px;
+}
